@@ -24,6 +24,10 @@ Importance:
 
 ![demo](demo/main_things_demo.png)
 
+![demo](demo/main_things_demo_2.png)
+
+![demo](demo/main_things_demo_3.png)
+
 
 ##Installation
 
