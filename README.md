@@ -33,7 +33,7 @@ Importance priority:
 
 #### Via Package Control
 
-[DlangAutoModuleName](https://packagecontrol.io/packages/DlangAutoModuleName) from Package Control.
+[MainThings](https://packagecontrol.io/packages/MainThings) from Package Control.
 
 #### Via git
 
