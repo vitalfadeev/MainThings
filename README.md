@@ -5,11 +5,11 @@ A specially for D language.
 
 ## Concept
 
-- Focus on important word
-- After focus on less important word
-- Not important word
+- Highlight Important word
+- Darken less important word
+- Darkest other words
 
-Importance: 
+Importance priority: 
 1. Name of class, struct, interface, enum, function
 2. function()
 3. variable
