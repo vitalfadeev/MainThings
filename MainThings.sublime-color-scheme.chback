@@ -1,0 +1,174 @@
+{
+    "name": "MainThings Color Scheme",
+
+    "variables":
+    {
+        "intensive" : "#CCCCCC",
+        "lightest"  : "#FFFFFF",
+        "lighter"   : "#EEEEEE",
+        "light"     : "#DDDDDD",
+        "base"      : "#CCCCCC",
+        "dark"      : "#AAAAAA",
+        "darker"    : "#888888",
+        "darkest"   : "#666666",
+        "back"      : "#222222",
+        "caret"     : "#FFFFFF",
+    },
+
+    "globals":
+    {
+        "background" : "var(back)",
+        "foreground" : "var(base)",
+        "caret"      : "var(caret)"
+    },
+
+    "rules":
+    [
+        {
+            "background": "#C8C8C8FF",
+            "scope": "col_C8C8C8FF",
+            "foreground": "#484848FF"
+        },
+        {
+            "background": "#434343FF",
+            "scope": "col_434343FF",
+            "foreground": "#C3C3C3FF"
+        },
+        {
+            "background": "#808080FF",
+            "scope": "col_808080FF",
+            "foreground": "#000000FF"
+        },
+        {
+            "background": "#E6E6E6FF",
+            "scope": "col_E6E6E6FF",
+            "foreground": "#666666FF"
+        },
+        {
+            "background": "#C3C3C3FF",
+            "scope": "col_C3C3C3FF",
+            "foreground": "#434343FF"
+        },
+        {
+            "background": "#080808FF",
+            "scope": "col_080808FF",
+            "foreground": "#888888FF"
+        },
+        {
+            "background": "#2A2A2AFF",
+            "scope": "col_2A2A2AFF",
+            "foreground": "#AAAAAAFF"
+        },
+        {
+            "background": "#7E7E7EFF",
+            "scope": "col_7E7E7EFF",
+            "foreground": "#FEFEFEFF"
+        },
+        {
+            "background": "#484848FF",
+            "scope": "col_484848FF",
+            "foreground": "#C8C8C8FF"
+        },
+        {
+            "background": "#5D5D5DFF",
+            "scope": "col_5D5D5DFF",
+            "foreground": "#DDDDDDFF"
+        },
+        {
+            "background": "#6E6E6EFF",
+            "scope": "col_6E6E6EFF",
+            "foreground": "#EEEEEEFF"
+        },
+        {
+            "background": "#A2A2A2FF",
+            "scope": "col_A2A2A2FF",
+            "foreground": "#222222FF"
+        },
+        {
+            "background": "#4C4C4CFF",
+            "scope": "col_4C4C4CFF",
+            "foreground": "#CCCCCCFF"
+        },
+        {
+            "background": "#000000FF",
+            "scope": "col_000000FF",
+            "foreground": "#808080FF"
+        },
+        {
+            "background": "#000000",
+            "scope": "col_gutter",
+            "foreground": "#ffffff"
+        },
+        {
+            "background": "#666666FF",
+            "scope": "col_666666FF",
+            "foreground": "#E6E6E6FF"
+        },
+        {
+            "background": "#AAAAAAFF",
+            "scope": "col_AAAAAAFF",
+            "foreground": "#2A2A2AFF"
+        },
+        {
+            "background": "#CCCCCCFF",
+            "scope": "col_CCCCCCFF",
+            "foreground": "#4C4C4CFF"
+        },
+        {
+            "background": "#7F00FFFF",
+            "scope": "col_7F00FFFF",
+            "foreground": "#C3C3C3FF"
+        },
+        {
+            "background": "#FEFEFEFF",
+            "scope": "col_FEFEFEFF",
+            "foreground": "#7E7E7EFF"
+        },
+        {
+            "background": "#222222FF",
+            "scope": "col_222222FF",
+            "foreground": "#A2A2A2FF"
+        },
+        {
+            "background": "#EEEEEEFF",
+            "scope": "col_EEEEEEFF",
+            "foreground": "#6E6E6EFF"
+        },
+        {
+            "background": "#FFD400FF",
+            "scope": "col_FFD400FF",
+            "foreground": "#484848FF"
+        },
+        {
+            "background": "#DDDDDDFF",
+            "scope": "col_DDDDDDFF",
+            "foreground": "#5D5D5DFF"
+        },
+        {
+            "background": "#888888FF",
+            "scope": "col_888888FF",
+            "foreground": "#080808FF"
+        },
+        {
+            "name": "Function",
+            "scope": "function",
+            "foreground": "var(intensive)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(darkest)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "hsla(50, 100%, 50%, 1)",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#7F00FF",
+            "font_style": "italic",
+        }
+    ]
+}
