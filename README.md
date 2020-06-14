@@ -1,9 +1,9 @@
-##MainThings Color Scheme for Sublime Text 3
+## MainThings Color Scheme for Sublime Text 3
 
 This is a color scheme for Sublime Text 3. 
 A specially for D language.
 
-##Concept
+## Concept
 
 - Focus on important word
 - After focus on less important word
@@ -20,7 +20,7 @@ Importance:
 8. other: brackets, comment, modifier
 
 
-##Demo
+## Demo
 
 ![demo](demo/main_things_demo.png)
 
@@ -29,17 +29,17 @@ Importance:
 ![demo](demo/main_things_demo_3.png)
 
 
-##Installation
+## Installation
 
-####Via Package Control
+#### Via Package Control
 
 [DlangAutoModuleName](https://packagecontrol.io/packages/DlangAutoModuleName) from Package Control.
 
-####Via git
+#### Via git
 
 `git clone` this repository and copy the MainThings file into your packages directory (User)
 
-###Activating the Color Scheme
+### Activating the Color Scheme
 
 For activating, click on Preferences -> Color Scheme -> MainThings. 
 
