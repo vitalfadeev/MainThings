@@ -664,13 +664,28 @@
             "foreground": "var(type)"
         },
         {
+            "name": "MD Link Reference Name 2",
+            "scope": "text.html.markdown meta.link.reference.literal.description.markdown",
+            "foreground": "var(type)"
+        },
+        {
             "name": "MD Link Reference",
             "scope": "text.html.markdown meta.link.reference.markdown constant.other.reference.link.markdown",
             "foreground": "var(link)"
         },
         {
+            "name": "MD Image Link Name",
+            "scope": "text.html.markdown meta.image.reference.description.markdown",
+            "foreground": "var(type)"
+        },
+        {
             "name": "MD Image Link",
             "scope": "text.html.markdown meta.image.inline markup.underline.link.image",
+            "foreground": "var(link)"
+        },
+        {
+            "name": "MD Image Link 2",
+            "scope": "text.html.markdown meta.image.reference.markdown constant.other.reference.link.markdown",
             "foreground": "var(link)"
         },
 
