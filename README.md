@@ -9,7 +9,7 @@ A specially for D language.
 - Darken less important word
 - Darkest other words
 
-Importance priority: 
+Importance priority:
 1. Name of class, struct, interface, enum, function
 2. function()
 3. variable

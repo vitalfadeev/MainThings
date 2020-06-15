@@ -518,5 +518,19 @@
             "foreground": "var(name2)"
         },
 
+        // MD Bold
+        {
+            "name": "MD Bold",
+            "scope": "markup.bold.markdown",
+            "font_style": "bold"
+        },
+
+        // MD Italic
+        {
+            "name": "MD Italic",
+            "scope": "markup.italic.markdown",
+            "font_style": "italic"
+        },
+
     ]
 }
