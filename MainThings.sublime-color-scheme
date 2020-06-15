@@ -278,7 +278,7 @@
         },
         {
             "name": "Keyword Final Switch",
-            "scope": "source.d meta.class.d meta.block.d meta.function.d meta.block.d storage.modifier.d",
+            "scope": "source.d meta.class meta.block meta.function meta.block storage.modifier",
             "foreground": "var(modifier)"
         },
 
