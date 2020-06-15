@@ -1,7 +1,10 @@
 ## MainThings is Color Scheme for Sublime Text 3
 
 This is a color scheme for Sublime Text 3. 
+
 A specially for D language.
+
+( added: JSON, MarkDown, Bash, Python )
 
 ## Concept
 
