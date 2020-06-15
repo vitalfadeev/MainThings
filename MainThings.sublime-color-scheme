@@ -7,11 +7,11 @@
         "name"     : "#daa520",
         "name2"    : "peru",
         "mainword" : "#a52a2a",
-        "keyword"  : "darkgreen",
         "type"     : "saddlebrown",
-        "blue"     : "#0d2a77",
-        "link"     : "#4e5794",
+        "keyword"  : "darkgreen",
         "modifier" : "darkgreen",
+        "blue"     : "#153487",
+        "link"     : "#4e5794",
         "default"  : "gray",
         "b3"       : "#555555",
         "b2"       : "#383838",
@@ -48,6 +48,161 @@
 
     "rules":
     [
+        {
+            "background": "#252525FF",
+            "scope": "col_252525FF",
+            "foreground": "#A5A5A5FF"
+        },
+        {
+            "background": "#FFFFFFFF",
+            "scope": "col_FFFFFFFF",
+            "foreground": "#7F7F7FFF"
+        },
+        {
+            "background": "#DBDBDBFF",
+            "scope": "col_DBDBDBFF",
+            "foreground": "#5B5B5BFF"
+        },
+        {
+            "background": "#9D9D9DFF",
+            "scope": "col_9D9D9DFF",
+            "foreground": "#1D1D1DFF"
+        },
+        {
+            "background": "#CCCCCCFF",
+            "scope": "col_CCCCCCFF",
+            "foreground": "#4C4C4CFF"
+        },
+        {
+            "background": "#D5D5D5FF",
+            "scope": "col_D5D5D5FF",
+            "foreground": "#555555FF"
+        },
+        {
+            "background": "#AAAAAAFF",
+            "scope": "col_AAAAAAFF",
+            "foreground": "#2A2A2AFF"
+        },
+        {
+            "background": "#A8A8A8FF",
+            "scope": "col_A8A8A8FF",
+            "foreground": "#282828FF"
+        },
+        {
+            "background": "#BABABAFF",
+            "scope": "col_BABABAFF",
+            "foreground": "#3A3A3AFF"
+        },
+        {
+            "background": "#B8B8B8FF",
+            "scope": "col_B8B8B8FF",
+            "foreground": "#383838FF"
+        },
+        {
+            "background": "#121212FF",
+            "scope": "col_121212FF",
+            "foreground": "#929292FF"
+        },
+        {
+            "background": "#D4D4D4FF",
+            "scope": "col_D4D4D4FF",
+            "foreground": "#545454FF"
+        },
+        {
+            "background": "#818181FF",
+            "scope": "col_818181FF",
+            "foreground": "#010101FF"
+        },
+        {
+            "background": "#CECECEFF",
+            "scope": "col_CECECEFF",
+            "foreground": "#4E4E4EFF"
+        },
+        {
+            "background": "#4A4A4AFF",
+            "scope": "col_4A4A4AFF",
+            "foreground": "#CACACAFF"
+        },
+        {
+            "background": "#000000",
+            "scope": "col_gutter",
+            "foreground": "#ffffff"
+        },
+        {
+            "background": "#282828FF",
+            "scope": "col_282828FF",
+            "foreground": "#A8A8A8FF"
+        },
+        {
+            "background": "#010101FF",
+            "scope": "col_010101FF",
+            "foreground": "#818181FF"
+        },
+        {
+            "background": "#FF0000FF",
+            "scope": "col_FF0000FF",
+            "foreground": "#CCCCCCFF"
+        },
+        {
+            "background": "#0D2A77FF",
+            "scope": "col_0D2A77FF",
+            "foreground": "#AAAAAAFF"
+        },
+        {
+            "background": "#4E5794FF",
+            "scope": "col_4E5794FF",
+            "foreground": "#DBDBDBFF"
+        },
+        {
+            "background": "#FFD700FF",
+            "scope": "col_FFD700FF",
+            "foreground": "#4A4A4AFF"
+        },
+        {
+            "background": "#808080FF",
+            "scope": "col_808080FF",
+            "foreground": "#000000FF"
+        },
+        {
+            "background": "#DAA520FF",
+            "scope": "col_DAA520FF",
+            "foreground": "#252525FF"
+        },
+        {
+            "background": "#383838FF",
+            "scope": "col_383838FF",
+            "foreground": "#B8B8B8FF"
+        },
+        {
+            "background": "#555555FF",
+            "scope": "col_555555FF",
+            "foreground": "#D5D5D5FF"
+        },
+        {
+            "background": "#CD853FFF",
+            "scope": "col_CD853FFF",
+            "foreground": "#121212FF"
+        },
+        {
+            "background": "#0000FFFF",
+            "scope": "col_0000FFFF",
+            "foreground": "#9D9D9DFF"
+        },
+        {
+            "background": "#A52A2AFF",
+            "scope": "col_A52A2AFF",
+            "foreground": "#CECECEFF"
+        },
+        {
+            "background": "#006400FF",
+            "scope": "col_006400FF",
+            "foreground": "#BABABAFF"
+        },
+        {
+            "background": "#8B4513FF",
+            "scope": "col_8B4513FF",
+            "foreground": "#D4D4D4FF"
+        },
         // Number
         {
             "name": "Number",
@@ -192,6 +347,11 @@
         // Function - Function Call
         {
             "name": "Function - Function Call",
+            "scope": "source.d meta.function-call.d meta.path.d variable.function.d",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Function - Function Call 2",
             "scope": "source.d meta.function meta.block meta.function-call meta.path variable.function",
             "foreground": "var(name)"
         },
@@ -281,6 +441,11 @@
             "name": "Keyword Final Switch",
             "scope": "source.d meta.class meta.block meta.function meta.block storage.modifier",
             "foreground": "var(modifier)"
+        },
+        {
+            "name": "Keyword Logical",
+            "scope": "source.d meta.class.d keyword.operator.logical.d",
+            "foreground": "var(default)"
         },
 
 
@@ -389,6 +554,11 @@
             "name": "String",
             "scope": "source.d string",
             "foreground": "var(default)"
+        },
+        {
+            "name": "String Quantifier",
+            "scope": "source.d meta.string.d string.quoted.double.raw.d storage.modifier.string.d",
+            "foreground": "var(type)"
         },
 
 
@@ -643,5 +813,265 @@
             "foreground": "var(keyword)"
         },
 
+        // Python
+        // Python Function
+        // Python Function Def
+        {
+            "name": "Python Def",
+            "scope": "source.python meta.function.python storage.type",
+            "foreground": "var(type)"
+        },
+        // Python Function Name
+        {
+            "name": "Python Function Name",
+            "scope": "source.python meta.function.python entity.name.function.python",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Python Function Name 2",
+            "scope": "source.python meta.function.python entity.name.function.python meta.generic-name.python",
+            "foreground": "var(name)"
+        },
+        // Python Function Call Name
+        {
+            "name": "Python Function Call Name",
+            "scope": "source.python meta.function-call.python meta.qualified-name.python variable.function.python meta.generic-name.python",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Python Function Call Name 2",
+            "scope": "source.python support.function.builtin.python",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Python Function Call Name 3",
+            "scope": "source.python meta.function-call.python meta.qualified-name.python variable.function.python support.type.python",
+            "foreground": "var(name)"
+        },
+
+        // Python Function Arg Name
+        {
+            "name": "Python Function Arg Name",
+            "scope": "source.python meta.function.parameters.python variable.parameter.python",
+            "foreground": "var(type)"
+        },
+
+        // Python Var Pre
+        {
+            "name": "Python Var Pre",
+            "scope": "source.python meta.function-call.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(name2)"
+        },
+
+        // Python Var
+        {
+            "name": "Python Var",
+            "scope": "source.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Var 2",
+            "scope": "source.python meta.generic-name.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Var 3",
+            "scope": "source.python meta.function-call.arguments.python variable.parameter.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Var 4",
+            "scope": "source.python meta.qualified-name.python variable.other.constant.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Var 5",
+            "scope": "source.python meta.function-call.python meta.qualified-name.python variable.language.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Var 6",
+            "scope": "source.python meta.qualified-name.python variable.language.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Decorator",
+            "scope": "source.python meta.annotation.function.python meta.qualified-name.python variable.annotation.function.python meta.generic-name.python",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "Python Decorator Arg",
+            "scope": "source.python meta.annotation.arguments.python meta.qualified-name.python meta.generic-name.python",
+            "foreground": "var(type)"
+        },
+
+        // Python Keyword
+        // Python Keyword Del
+        {
+            "name": "Python Keyword Del",
+            "scope": "source.python keyword.other",
+            "foreground": "var(keyword)"
+        },
+        // Python Keyword If-Else, Try-Except
+        {
+            "name": "Python Keyword If",
+            "scope": "source.python keyword.control.flow",
+            "foreground": "var(keyword)"
+        },
+        // Python Keyword Return
+        {
+            "name": "Python Keyword Return",
+            "scope": "source.python keyword.control.flow.return.python",
+            "foreground": "var(keyword)"
+        },
+        // Python Keyword Is
+        {
+            "name": "Python Keyword Is",
+            "scope": "source.python meta.statement.if.python keyword.operator.logical.python",
+            "foreground": "var(keyword)"
+        },
+        // Python Keyword With
+        {
+            "name": "Python Keyword With",
+            "scope": "source.python meta.statement.with.python keyword.control.flow.with.python",
+            "foreground": "var(keyword)"
+        },
+        // Python Keyword Global
+        {
+            "name": "Python Keyword Global",
+            "scope": "source.python storage.modifier.global.python",
+            "foreground": "var(type)"
+        },
+        // Python Keyword Import
+        {
+            "name": "Python Keyword Import",
+            "scope": "source.python meta.statement.import.python keyword.control.import.python",
+            "foreground": "var(type)"
+        },
+        // Python Keyword From
+        {
+            "name": "Python Keyword From",
+            "scope": "source.python meta.statement.import.python keyword.control.import.from.python",
+            "foreground": "var(type)"
+        },
+        // Python Keyword Import Soource
+        {
+            "name": "Python Keyword Import Soource",
+            "scope": "source.python meta.statement.import.python meta.import-source.python meta.import-path.python meta.import-name.python",
+            "foreground": "var(name2)"
+        },
+        // Python Keyword In
+        {
+            "name": "Python Keyword In",
+            "scope": "source.python keyword.operator.logical.python",
+            "foreground": "var(keyword)"
+        },
+
+
+        // Python String
+        // Python String Type
+        {
+            "name": "Python String Type",
+            "scope": "source.python storage.type.string.python",
+            "foreground": "var(blue)",
+            "font_style": "bold",
+        },
+        // Python String Placeholder
+        {
+            "name": "Python String Placeholder",
+            "scope": "source.python meta.string.python string.quoted.double.python constant.other.placeholder.python",
+            "foreground": "var(b3)"
+        },
+        // Python String Escape Sequence
+        {
+            "name": "Python String Escape Sequence",
+            "scope": "source.python meta.string.python string.quoted.double.python constant.character.escape.python",
+            "foreground": "var(b3)"
+        },
+        // Python String Regex
+        {
+            "name": "Python String Regex Anchor",
+            "scope": "source.python source.regexp.python keyword.control.anchor.regexp",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "Python String Regex Op",
+            "scope": "source.python source.regexp.python keyword.operator.quantifier.regexp",
+            "foreground": "var(default)"
+        },
+        {
+            "name": "Python String Regex Group",
+            "scope": "source.python source.regexp.python meta.group.regexp punctuation.definition.group",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Python String Regex Group Ref",
+            "scope": "source.python source.regexp.python keyword.other.back-reference.regexp",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Python String Regex Group Symbols",
+            "scope": "source.python source.regexp.python meta.group.regexp constant.character.character-class.regexp",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Python String Regex Group Symbols 2",
+            "scope": "source.python source.regexp.python meta.group.regexp keyword.operator.quantifier.regexp",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python String Regex Set",
+            "scope": "source.python source.regexp.python constant.other.character-class.set.regexp punctuation.definition.character-class",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "Python String Regex Class",
+            "scope": "source.python source.regexp.python constant.character.character-class.regexp",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "Python String Regex Quantifier",
+            "scope": "source.python source.regexp.python keyword.operator.quantifier.regexp",
+            "foreground": "var(type)"
+        },
+
+        // Python Exceprion
+        {
+            "name": "Python Exceprion",
+            "scope": "source.python meta.statement.except.python support.type.exception.python",
+            "foreground": "var(mainword)"
+        },
+
+        // Class
+        // Python Class
+        {
+            "name": "Python Class",
+            "scope": "source.python meta.class.python storage.type.class.python",
+            "foreground": "var(type)"
+        },
+        // Python Class Inheritance
+        {
+            "name": "Python Class Inheritance",
+            "scope": "source.python meta.class.inheritance.python entity.other.inherited-class.python",
+            "foreground": "var(type)"
+        },
+        // Python Class Name
+        {
+            "name": "Python Class Name",
+            "scope": "source.python meta.class.python entity.name.class.python meta.generic-name.python",
+            "foreground": "var(name)"
+        },
+
+        // Python Constant
+        {
+            "name": "Python Constant",
+            "scope": "source.python constant.language.python",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Python Constant 2",
+            "scope": "source.python variable.other.constant.python",
+            "foreground": "var(name2)"
+        },
     ]
 }
