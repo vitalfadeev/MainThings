@@ -491,5 +491,22 @@
             "foreground": "var(name2)"
         },
 
+        // MD List
+        {
+            "name": "MD List Mark",
+            "scope": "text.html.markdown markup.list punctuation.definition.list_item",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "MD List Mark",
+            "scope": "text.html.markdown markup.list.numbered.bullet",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "MD List Text",
+            "scope": "text.html.markdown markup.list meta.paragraph.list",
+            "foreground": "var(name2)"
+        },
+
     ]
 }
