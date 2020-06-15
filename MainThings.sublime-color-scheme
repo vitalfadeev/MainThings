@@ -490,6 +490,16 @@
             "scope": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
             "foreground": "var(name2)"
         },
+        {
+            "name": "MD Raw Code",
+            "scope": "text.html.markdown meta.paragraph.markdown markup.raw.code-fence",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "MD Raw Code Block",
+            "scope": "text.html.markdown meta.paragraph.markdown meta.code-fence",
+            "foreground": "var(name2)"
+        },
 
         // MD List
         {
