@@ -459,45 +459,45 @@
 
         // MD Link
         {
-            "name": "MD Lni Name",
-            "scope": "text.html.markdown meta.paragraph.markdown meta.image.inline.description",
+            "name": "MD Link Name",
+            "scope": "text.html.markdown meta.image.inline.description",
             "foreground": "var(type)"
         },
         {
             "name": "MD Link",
-            "scope": "text.html.markdown meta.paragraph.markdown markup.underline.link.markdown-gfm",
+            "scope": "text.html.markdown markup.underline.link.markdown-gfm",
             "foreground": "var(link)"
         },
         {
             "name": "MD Link Name 2",
-            "scope": "text.html.markdown meta.paragraph.markdown meta.link.inline.description",
+            "scope": "text.html.markdown meta.link.inline.description",
             "foreground": "var(type)"
         },
         {
             "name": "MD Link 2",
-            "scope": "text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link",
+            "scope": "text.html.markdown meta.link.inline.markdown markup.underline.link",
             "foreground": "var(link)"
         },
         {
             "name": "MD Image Link",
-            "scope": "text.html.markdown meta.paragraph.markdown meta.image.inline markup.underline.link.image",
+            "scope": "text.html.markdown meta.image.inline markup.underline.link.image",
             "foreground": "var(link)"
         },
 
         // MD Raw
         {
             "name": "MD Raw",
-            "scope": "text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown",
+            "scope": "text.html.markdown markup.raw.inline.markdown",
             "foreground": "var(name2)"
         },
         {
             "name": "MD Raw Code",
-            "scope": "text.html.markdown meta.paragraph.markdown markup.raw.code-fence",
+            "scope": "text.html.markdown markup.raw.code-fence",
             "foreground": "var(name2)"
         },
         {
             "name": "MD Raw Code Block",
-            "scope": "text.html.markdown meta.paragraph.markdown meta.code-fence",
+            "scope": "text.html.markdown meta.code-fence",
             "foreground": "var(name2)"
         },
 
