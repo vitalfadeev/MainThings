@@ -435,28 +435,28 @@
         {
             "name": "JSON Sub Key",
             "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(type)"
+            "foreground": "var(name2)"
         },
         // JSON Value
         {
             "name": "JSON String Value",
             "scope": "source.json meta.mapping.value.json meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(name2)"
+            "foreground": "var(type)"
         },
         {
             "name": "JSON String Value 2",
             "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(name2)"
+            "foreground": "var(type)"
         },
         {
             "name": "JSON String Value 3",
             "scope": "source.json meta.mapping.value.json meta.sequence.json string.quoted.double.json",
-            "foreground": "var(name2)"
+            "foreground": "var(type)"
         },
         {
             "name": "JSON String Value 4",
             "scope": "source.json meta.mapping.value.json string.quoted.double.json",
-            "foreground": "var(name2)"
+            "foreground": "var(type)"
         },
 
 
