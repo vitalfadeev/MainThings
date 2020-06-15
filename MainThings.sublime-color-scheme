@@ -399,11 +399,48 @@
         },
 
 
-       // Error
+        // Error
         {
             "name": "Invalid",
             "scope": "source.d invalid",
             "foreground": "var(error)"
+        },
+
+
+        // JSON
+        // JSON Key
+        {
+            "name": "JSON Key Title",
+            "scope": "source.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(name)"
+        },
+        // JSON Sub Key
+        {
+            "name": "JSON Sub Key",
+            "scope": "source.json meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "var(type)"
+        },
+        // JSON Value
+        {
+            "name": "JSON String Value",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "JSON String Value 2",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "JSON String Value 3",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json string.quoted.double.json",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "JSON String Value 4",
+            "scope": "source.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "var(name2)"
         }
+
     ]
 }
