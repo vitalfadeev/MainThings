@@ -10,7 +10,7 @@
         "keyword"  : "darkgreen",
         "type"     : "saddlebrown",
         "blue"     : "#0d2a77",
-        "link"     : "#5F9EA0",
+        "link"     : "#4e5794",
         "modifier" : "darkgreen",
         "default"  : "gray",
         "b3"       : "#555555",
@@ -479,6 +479,26 @@
             "foreground": "var(link)"
         },
         {
+            "name": "MD Link Name 3",
+            "scope": "text.html.markdown meta.link.reference.def.markdown entity.name.reference.link.markdown",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "MD Link 3",
+            "scope": "text.html.markdown meta.link.reference.def.markdown markup.underline.link.markdown",
+            "foreground": "var(link)"
+        },
+        {
+            "name": "MD Link Reference Name",
+            "scope": "text.html.markdown meta.link.reference.description.markdown",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "MD Link Reference",
+            "scope": "text.html.markdown meta.link.reference.markdown constant.other.reference.link.markdown",
+            "foreground": "var(link)"
+        },
+        {
             "name": "MD Image Link",
             "scope": "text.html.markdown meta.image.inline markup.underline.link.image",
             "foreground": "var(link)"
@@ -500,6 +520,12 @@
             "scope": "text.html.markdown meta.code-fence",
             "foreground": "var(name2)"
         },
+        {
+            "name": "MD Raw Code Block Definition",
+            "scope": "text.html.markdown meta.paragraph.markdown meta.code-fence.definition",
+            "foreground": "var(type)",
+            "font_style": "italic"
+        },
 
         // MD List
         {
@@ -515,7 +541,7 @@
         {
             "name": "MD List Text",
             "scope": "text.html.markdown markup.list meta.paragraph.list",
-            "foreground": "var(name2)"
+            "foreground": "var(default)"
         },
 
         // MD Bold
@@ -530,6 +556,91 @@
             "name": "MD Italic",
             "scope": "markup.italic.markdown",
             "font_style": "italic"
+        },
+
+
+        // Shell
+        // Shell Function call
+        {
+            "name": "Shell Function call",
+            "scope": "source.shell.bash meta.function-call.shell variable.function.shell",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Shell Function call 2",
+            "scope": "source.shell.bash meta.function-call.shell support.function",
+            "foreground": "var(name)"
+        },
+        {
+            "name": "Shell Function Parameter Name",
+            "scope": "source.shell.bash meta.function-call.arguments.shell variable.parameter.option.shell",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "Shell Function Call Arg",
+            "scope": "source.shell.bash meta.function-call.arguments",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Shell Function Call Arg Operator",
+            "scope": "source.shell.bash meta.function-call.arguments.shell keyword.operator",
+            "foreground": "var(default)"
+        },
+        {
+            "name": "Shell Function Call Arg Brace",
+            "scope": "source.shell.bash meta.function-call.arguments.shell support.function.double-brace",
+            "foreground": "var(default)"
+        },
+        {
+            "name": "Shell Operator =",
+            "scope": "source.shell.bash meta.function-call.arguments.shell keyword.operator.assignment.option.shell",
+            "foreground": "var(default)"
+        },
+
+        // Shell Var
+        {
+            "name": "Shell Var Mark",
+            "scope": "source.shell.bash punctuation.definition.variable.shell",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "Shell Var",
+            "scope": "source.shell.bash variable",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Shell Var in For",
+            "scope": "source.shell.bash meta.group.for.shell",
+            "foreground": "var(name2)"
+        },
+
+        // Shell If-Else-Fi
+        {
+            "name": "Shell If-Else-Fi",
+            "scope": "source.shell.bash keyword.control.if",
+            "foreground": "var(keyword)"
+        },
+
+        // Shell For-Do-Done
+        {
+            "name": "Shell For",
+            "scope": "source.shell.bash keyword.control.for",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "Shell For Do",
+            "scope": "source.shell.bash keyword.control.do",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "Shell For Done",
+            "scope": "source.shell.bash keyword.control.done",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "Shell For In",
+            "scope": "source.shell.bash meta.group.for.shell keyword.control.in.shell",
+            "foreground": "var(keyword)"
         },
 
     ]
