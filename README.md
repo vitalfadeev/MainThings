@@ -48,3 +48,7 @@ Importance priority:
 
 For activating, click on Preferences -> Color Scheme -> MainThings. 
 
+#### See also
+
+Good looks with [Cyanide - Wood Theme](https://packagecontrol.io/packages/Theme%20-%20Cyanide)
+
