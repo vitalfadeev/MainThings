@@ -1,6 +1,6 @@
 ## MainThings is Color Scheme for Sublime Text 3
 
-This is teh Color Scheme for Sublime Text 3. 
+This is the Color Scheme for Sublime Text 3. 
 
 A specially for D language.
 
