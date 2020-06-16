@@ -328,7 +328,7 @@
         {
             "name": "Keyword If-Else",
             "scope": "source.d keyword.control",
-            "foreground": "var(keyword)"
+            "foreground": "var(type)"
         },
         {
             "name": "Keyword Assert",
