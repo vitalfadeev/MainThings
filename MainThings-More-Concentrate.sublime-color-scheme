@@ -48,480 +48,583 @@
 
     "rules":
     [
-        // Number
+        // Default
+        // Class
         {
-            "name": "Number",
+            "name": "Class",
+            "scope": "entity.name.type.class entity.name.class",
+            "foreground": "var(name)"
+        },
+
+        // Function
+        {
+            "name": "Function",
+            "scope": "meta.function.c entity.name.function",
+            "foreground": "var(name)"
+        },
+
+        // Function Call
+        {
+            "name": "Function Call",
+            "scope": "meta.function-call support.function",
+            "foreground": "var(name)"
+        },
+
+        // Var
+        {
+            "name": "Var",
+            "scope": "variable",
+            "foreground": "var(name2)"
+        },
+
+        // Name
+        {
+            "name": "Name",
+            "scope": "entity.name",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "Name 2",
+            "scope": "entity.tag.name",
+            "foreground": "var(name2)"
+        },
+
+        // Constant Name
+        {
+            "name": "Constant Name",
+            "scope": "entity.name.constant",
+            "foreground": "var(name2)"
+        },
+
+        // Type
+        {
+            "name": "Type",
+            "scope": "storage.type",
+            "foreground": "var(type)"
+        },
+
+        // Number Constant Type
+        {
+            "name": "Number Constant Type",
+            "scope": "constant.numeric storage.type",
+            "foreground": "var(b3)"
+        },
+
+        // Keyword
+        // {
+        //     "name": "Keyword",
+        //     "scope": "keyword",
+        //     "foreground": "var(keyword)"
+        // },
+
+        // Keyword Control
+        {
+            "name": "Keyword Control",
+            "scope": "keyword.control",
+            "foreground": "var(type)"
+        },
+
+        // Keyword Other
+        {
+            "name": "Keyword Other",
+            "scope": "keyword.other",
+            "foreground": "var(type)"
+        },
+
+        // Comment
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(b3)"
+        },
+
+
+        // D
+        // D Number
+        {
+            "name": "D Number",
             "scope": "source.d constant.numeric",
             "foreground": "var(default)"
         },
 
-        // Number Type
+        // D Number Type
         {
-            "name": "Number Type",
+            "name": "D Number Type",
             "scope": "source.d constant.numeric punctuation.definition.numeric.base",
             "foreground": "var(b3)"
         },
 
-        // Interface
-        // Interface
+        // D Interface
+        // D Interface
         {
-            "name": "Interface",
+            "name": "D Interface",
             "scope": "source.d meta.interface storage.type.interface keyword.declaration.interface",
             "foreground": "var(type)"
         },
 
-        // Interface Name
+        // D Interface Name
         {
-            "name": "Interface Name",
+            "name": "D Interface Name",
             "scope": "source.d meta.interface entity.name.interface",
             "foreground": "var(name)"
         },
 
-        // Interface Method Type
+        // D Interface Method Type
         {
-            "name": "Interface Method Type",
+            "name": "D Interface Method Type",
             "scope": "source.d meta.interface meta.block meta.path storage.type",
             "foreground": "var(type)"
         },
 
-        // Interface Method Name
+        // D Interface Method Name
         {
-            "name": "Interface Method Name",
+            "name": "D Interface Method Name",
             "scope": "source.d meta.interface meta.block meta.function entity.name.function",
             "foreground": "var(name)"
         },
 
-        // Interface Method Arg Name
+        // D Interface Method Arg Name
         {
-            "name": "Interface Method Arg Name",
+            "name": "D Interface Method Arg Name",
             "scope": "source.d meta.interface meta.block meta.function.parameters variable.parameter",
             "foreground": "var(name2)"
         },
 
-        // Class
+        // D Class
         {
-            "name": "Class",
+            "name": "D Class",
             "scope": "source.d meta.class storage.type.class keyword.declaration.class",
             "foreground": "var(type)"
         },
 
-        // Class Name
+        // D Class Name
         {
-            "name": "Class Name",
+            "name": "D Class Name",
             "scope": "source.d meta.class entity.name.class",
             "foreground": "var(name)"
         },
 
-        // Class Var Type
-        // {
-        //     "name": "Class Var Type",
-        //     "scope": "source.d meta.class.d meta.block.d meta.path.d variable.other.d",
-        //     "foreground": "var(type)"
-        // },
+        // D Class Var Type
         {
-            "name": "Class Var Name",
+            "name": "D Class Var Type",
+            "scope": "source.d meta.class.d meta.block.d meta.path.d variable.other.d",
+            "foreground": "var(type)"
+        },
+        // D Class Var
+        {
+            "name": "D Class Var",
+            "scope": "source.d meta.class.d meta.block.d meta.function.d meta.block.d meta.path.d variable.other.d",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "D Class Var Name",
             "scope": "source.d meta.class.d meta.block.d variable.other.d",
             "foreground": "var(name2)"
         },
 
-        // Class Method Type
+        // D Class Method Type
         {
-            "name": "Class Method Type",
+            "name": "D Class Method Type",
             "scope": "source.d meta.class meta.block meta.path storage.type",
             "foreground": "var(type)"
         },
 
-        // Class Method Name
+        // D Class Method Name
         {
-            "name": "Class Method Name",
+            "name": "D Class Method Name",
             "scope": "source.d meta.class meta.block meta.function entity.name.function",
             "foreground": "var(name)"
         },
 
-        // Class Method Arg
+        // D Class Method Arg
         {
-            "name": "Class Method Arg",
+            "name": "D Class Method Arg",
             "scope": "source.d meta.class meta.block meta.function.parameters variable.parameter",
             "foreground": "var(name2)"
         },
 
-        // Class Method Declaraion Var Type
+        // D Class Method Declaraion Var Type
         {
-            "name": "Class Method Declaraion Var Type",
+            "name": "D Class Method Declaraion Var Type",
             "scope": "source.d meta.class meta.block meta.function meta.block meta.path storage.type",
             "foreground": "var(type)"
         },
         {
-            "name": "Class Method Declaraion Var Type 2",
+            "name": "D Class Method Declaraion Var Type 2",
             "scope": "source.d meta.class.d meta.block.d meta.function.parameters.d meta.path.d variable.other.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Class Method Declaraion Var Type 3",
+            "name": "D Class Method Declaraion Var Type 3",
             "scope": "source.d meta.class.d meta.block.d meta.function.parameters.d storage.type.d",
             "foreground": "var(type)"
         },
 
-        // Class Method Declaraion Var Name
+        // D Class Method Declaraion Var Name
         {
-            "name": "Class Method Declaraion Var Name",
+            "name": "D Class Method Declaraion Var Name",
             "scope": "source.d meta.class meta.block meta.function meta.block variable.other",
             "foreground": "var(name2)"
         },
 
-        // Class Method Var Name
+        // D Class Method Var Name
         {
-            "name": "Class Method Var Name",
+            "name": "D Class Method Var Name",
             "scope": "source.d meta.class meta.block meta.function meta.block meta.path variable.other",
             "foreground": "var(name2)"
         },
         {
-            "name": "Class Method Var Name",
+            "name": "D Class Method Var Name",
             "scope": "source.d meta.struct.d meta.block.d meta.function.d meta.block.d meta.path.d variable.other.d",
             "foreground": "var(name2)"
         },
 
-        // Class Method Function Call
+        // D Class Method Function Call
         {
-            "name": "Class Method Function Call",
+            "name": "D Class Method Function Call",
             "scope": "source.d meta.class meta.block meta.function meta.block meta.function-call meta.path variable.function",
             "foreground": "var(name)"
         },
 
 
-        // Function
-        // Function Name
+        // D Function
+        // D Function Name
         {
-            "name": "Function",
+            "name": "D Function",
             "scope": "source.d meta.function entity.name.function",
             "foreground": "var(name)"
         },
 
-        // Function Arg Name
+        // D Function Arg Name
         {
-            "name": "Function Arg Name",
+            "name": "D Function Arg Name",
             "scope": "source.d meta.function.parameters variable.parameter",
             "foreground": "var(name2)"
         },
 
-        // Function - Function Call
+        // D Function - Function Call
         {
-            "name": "Function - Function Call",
+            "name": "D Function - Function Call",
             "scope": "source.d meta.function-call.d meta.path.d variable.function.d",
             "foreground": "var(name)"
         },
         {
-            "name": "Function - Function Call 2",
+            "name": "D Function - Function Call 2",
             "scope": "source.d meta.function meta.block meta.function-call meta.path variable.function",
             "foreground": "var(name)"
         },
 
-        // Function - Function Call Arg
+        // D Function - Function Call Arg
         {
-            "name": "Function - Function Call Arg",
+            "name": "D Function - Function Call Arg",
             "scope": "source.d meta.function meta.block meta.function-call meta.path variable.other",
             "foreground": "var(name2)"
         },
 
-        // Function - Var Type
+        // D Function - Var Type
         {
-            "name": "Function -- Var Type",
+            "name": "D Function -- Var Type",
             "scope": "source.d storage.type.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Function -- Var Type 1",
+            "name": "D Function -- Var Type 1",
             "scope": "source.d meta.function.d meta.block.d storage.type.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Function -- Var Type 2",
+            "name": "D Function -- Var Type 2",
             "scope": "source.d storage.modifier.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Function -- Var Type 3",
+            "name": "D Function -- Var Type 3",
             "scope": "source.d meta.block.d storage.modifier.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Function -- Var Type 4",
+            "name": "D Function -- Var Type 4",
             "scope": "source.d meta.function.d meta.block.d storage.modifier.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Function -- Var Type 5",
+            "name": "D Function -- Var Type 5",
             "scope": "source.d meta.function-call.d storage.type.d",
             "foreground": "var(type)"
         },
-        // Function - Var Name
+        // D Function - Var Name
         {
-            "name": "Function -- Var Name",
+            "name": "D Function -- Var Name",
             "scope": "source.d meta.function meta.block meta.path variable.other",
             "foreground": "var(name2)"
         },
         {
-            "name": "Function -- Var Name 2",
+            "name": "D Function -- Var Name 2",
             "scope": "source.d meta.function.d meta.block.d variable.other.d",
             "foreground": "var(name2)"
         },
         {
-            "name": "Function -- Var Name 3",
+            "name": "D Function -- Var Name 3",
             "scope": "source.d meta.function.d meta.block.d variable.parameter.d",
             "foreground": "var(name2)"
         },
         {
-            "name": "Function -- Var Name 4",
+            "name": "D Function -- Var Name 4",
             "scope": "source.d meta.class.d meta.block.d meta.block.d variable.parameter.d",
             "foreground": "var(name2)"
         },
 
 
-        // Module Var
+        // D Module Var
         {
-            "name": "Module Var",
+            "name": "D Module Var",
             "scope": "source.d variable.other.d",
             "foreground": "var(name2)"
         },
         {
-            "name": "Module Var Function",
+            "name": "D Module Var Function",
             "scope": "source.d variable.function.d",
             "foreground": "var(type)"
         },
 
 
-        // Case Label
+        // D Case Label
         {
-            "name": "Case Label",
+            "name": "D Case Label",
             "scope": "source.d entity.name.label.d",
             "foreground": "var(name2)"
         },
 
 
-        // Alias
-        // Alias 
+        // D Alias
+        // D Alias 
         {
-            "name": "Alias",
+            "name": "D Alias",
             "scope": "source.d keyword.control.alias",
             "foreground": "var(mainword)"
         },
-        // Alias Type
+        // D Alias Type
         {
-            "name": "Alias Type",
+            "name": "D Alias Type",
             "scope": "source.d meta.path storage.type",
             "foreground": "var(type)"
         },
-        // Alias Name
+        // D Alias Name
         {
-            "name": "Alias Name",
+            "name": "D Alias Name",
             "scope": "source.d entity.name.type",
             "foreground": "var(name2)"
         },
 
 
-        // Keyword
+        // D Keyword
         {
-            "name": "Keyword Private-Public",
+            "name": "D Keyword Private-Public",
             "scope": "source.d storage.modifier.access-control",
             "foreground": "var(type)"
         },
         {
-            "name": "Keyword If-Else",
+            "name": "D Keyword If-Else",
             "scope": "source.d keyword.control",
             "foreground": "var(type)"
         },
         {
-            "name": "Keyword Assert",
+            "name": "D Keyword Assert",
             "scope": "source.d keyword.other.assert",
             "foreground": "var(mainword)"
         },
         {
-            "name": "Keyword Super",
+            "name": "D Keyword Super",
             "scope": "source.d meta.class meta.block meta.function meta.block variable.language.d",
             "foreground": "var(mainword)"
         },
         {
-            "name": "Keyword this",
+            "name": "D Keyword this",
             "scope": "source.d meta.struct.d meta.function.d meta.block.d variable.language.d",
             "foreground": "var(mainword)"
         },
         {
-            "name": "Keyword With",
+            "name": "D Keyword With",
             "scope": "source.d meta.function.d meta.block.d keyword.other.with",
             "foreground": "var(keyword)"
         },
         {
-            "name": "Keyword New",
+            "name": "D Keyword New",
             "scope": "source.d meta.function.d meta.block.d keyword.operator.word.d",
             "foreground": "var(mainword)"
         },
         {
-            "name": "Keyword Function",
+            "name": "D Keyword Function",
             "scope": "source.d keyword.other.d",
             "foreground": "var(mainword)"
         },
         {
-            "name": "Keyword Final Switch",
+            "name": "D Keyword Final Switch",
             "scope": "source.d meta.class meta.block meta.function meta.block storage.modifier",
             "foreground": "var(modifier)"
         },
         {
-            "name": "Keyword Logical",
-            "scope": "source.d meta.class.d keyword.operator.logical.d",
+            "name": "D Keyword Logical",
+            "scope": "source.d keyword.operator.logical.d",
+            "foreground": "var(b3)"
+        },
+        {
+            "name": "D Keyword Group",
+            "scope": "source.d punctuation.section.group",
             "foreground": "var(default)"
         },
         {
-            "name": "Keyword override",
+            "name": "D Keyword override",
             "scope": "source.d meta.class.d meta.block.d storage.modifier.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Keyword external",
+            "name": "D Keyword external",
             "scope": "source.d keyword.other.external.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Keyword Version Name",
+            "name": "D Keyword Version Name",
             "scope": "source.d string.other.d",
             "foreground": "var(name2)"
         },
         {
-            "name": "Keyword Pragma",
+            "name": "D Keyword Pragma",
             "scope": "source.d keyword.other.pragma.d",
             "foreground": "var(mainword)"
         },
         {
-            "name": "Keyword Union",
+            "name": "D Keyword Union",
             "scope": "source.d keyword.declaration.union.d",
             "foreground": "var(type)"
         },
 
 
-        // Module 
-        // Module 
+        // D Module 
+        // D Module 
         {
-            "name": "Keyword Module",
+            "name": "D Keyword Module",
             "scope": "source.d meta.namespace.d keyword.declaration.namespace.d",
             "foreground": "var(type)"
         },
 
-        // Module Name
+        // D Module Name
         {
-            "name": "Module Name Path",
+            "name": "D Module Name Path",
             "scope": "source.d meta.namespace.d meta.path.d variable.other.d",
             "foreground": "var(name2)"
         },
         {
-            "name": "Module Name",
+            "name": "D Module Name",
             "scope": "source.d meta.namespace.d meta.path.d entity.name.namespace.d",
             "foreground": "var(name2)"
         },
 
 
-        // Import
+        // D Import
         {
-            "name": "Import",
+            "name": "D Import",
             "scope": "source.d keyword.control.import.d",
             "foreground": "var(type)"
         },
 
 
-        // Struct
-        // Struct
+        // D Struct
+        // D Struct
         {
-            "name": "Struct",
+            "name": "D Struct",
             "scope": "source.d meta.struct storage.type.struct keyword.declaration.struct",
             "foreground": "var(type)"
         },
 
-        // Struct Name
+        // D Struct Name
         {
-            "name": "Struct Name",
+            "name": "D Struct Name",
             "scope": "source.d meta.struct entity.name.struct",
             "foreground": "var(name)"
         },
 
-        // Struct Var Type
+        // D Struct Var Type
         {
-            "name": "Struct Var Type",
+            "name": "D Struct Var Type",
             "scope": "source.d meta.struct meta.block meta.path storage.type",
             "foreground": "var(type)"
         },
         {
-            "name": "Struct Var Type 2",
+            "name": "D Struct Var Type 2",
             "scope": "source.d meta.struct.d meta.block.d meta.path.d variable.other.d",
             "foreground": "var(type)"
         },
         {
-            "name": "Struct Var Type 3",
+            "name": "D Struct Var Type 3",
             "scope": "source.d meta.struct meta.block meta.path variable.other",
             "foreground": "var(type)"
         },
 
-        // Struct Var Name
+        // D Struct Var Name
         {
-            "name": "Struct Var Name",
+            "name": "D Struct Var Name",
             "scope": "source.d meta.struct meta.block variable.other",
             "foreground": "var(name2)"
         },
 
 
-        // Template
-        // Template Name
+        // D Template
+        // D Template Name
         {
-            "name": "Template Name",
+            "name": "D Template Name",
             "scope": "source.d entity.name.template.d",
             "foreground": "var(name)"
         },
 
 
-        // Enum
-        // Enum
+        // D Enum
+        // D Enum
         {
-            "name": "Enum",
+            "name": "D Enum",
             "scope": "source.d meta.enum storage.type.enum keyword.declaration.enum",
             "foreground": "var(type)"
         },
 
-        // Enum Name
+        // D Enum Name
         {
-            "name": "Enum Name",
+            "name": "D Enum Name",
             "scope": "source.d meta.enum entity.name.enum",
             "foreground": "var(name)"
         },
 
-        // Enum Var Name
+        // D Enum Var Name
         {
-            "name": "Enum Var Name",
+            "name": "D Enum Var Name",
             "scope": "source.d meta.enum entity.name.constant",
             "foreground": "var(name2)"
         },
 
 
-        // String
+        // D String
         {
-            "name": "String",
+            "name": "D String",
             "scope": "source.d string",
             "foreground": "var(default)"
         },
         {
-            "name": "String Quantifier",
+            "name": "D String Quantifier",
             "scope": "source.d meta.string.d string.quoted.double.raw.d storage.modifier.string.d",
             "foreground": "var(type)"
         },
 
 
-        // Constant
+        // D Constant
         {
-            "name": "Constant",
+            "name": "D Constant",
             "scope": "source.d constant",
             "foreground": "var(name2)"
         },
 
 
-        // Error
+        // D Error
         {
-            "name": "Invalid",
+            "name": "D Invalid",
             "scope": "source.d invalid",
             "foreground": "var(error)"
         },
@@ -1168,6 +1271,91 @@
         {
             "name": "C++ Macro Name",
             "scope": "source.c++ meta.preprocessor.macro.c++ entity.name.constant.preprocessor.c++",
+            "foreground": "var(name2)"
+        },
+
+
+        // DOS Bat
+        // DOS Bat Keyword Command
+        {
+            "name": "DOS Bat Keyword Command",
+            "scope": "source.dosbatch keyword",
+            "foreground": "var(keyword)"
+        },
+
+        // DOS Bat Keyword Command Rem
+        {
+            "name": "DOS Bat Keyword Command Rem",
+            "scope": "source.dosbatch keyword.command.rem.dosbatch",
+            "foreground": "var(default)"
+        },
+
+
+        // Makefile
+        // Makefile Var
+        {
+            "name": "Makefile Var",
+            "scope": "source.makefile variable.parameter.makefile keyword.other.block",
+            "foreground": "var(type)"
+        },
+
+        // Makefile Function
+        {
+            "name": "Makefile Function",
+            "scope": "source.makefile meta.function.makefile entity.name.function.makefile",
+            "foreground": "var(name)"
+        },
+
+        // Makefile Function Call
+        {
+            "name": "Makefile Function Call",
+            "scope": "source.makefile meta.function-call variable.function",
+            "foreground": "var(name)"
+        },
+
+
+
+
+        // XML
+        // XML Tag
+        {
+            "name": "XML Tag",
+            "scope": "text.xml meta.tag.xml entity.name.tag",
+            "foreground": "var(name)"
+        },
+
+        // XML Attr
+        {
+            "name": "XML Attr",
+            "scope": "text.xml meta.tag.xml entity.other.attribute-name",
+            "foreground": "var(name2)"
+        },
+
+        // XML Tag Namespace
+        {
+            "name": "XML Tag Namespace",
+            "scope": "text.xml meta.tag.xml entity.name.tag.namespace.xml",
+            "foreground": "var(type)"
+        },
+
+        // XML Tag Keyword
+        {
+            "name": "XML Tag Keyword",
+            "scope": "text.xml keyword",
+            "foreground": "var(mainword)"
+        },
+
+        // XML Tag Preprocessor
+        {
+            "name": "XML Tag Preprocessor",
+            "scope": "text.xml meta.tag.preprocessor.xml entity.name.tag.xml",
+            "foreground": "var(mainword)"
+        },
+
+        // XML Tag Preprocessor Attr
+        {
+            "name": "XML Tag Preprocessor Attr",
+            "scope": "text.xml meta.tag.preprocessor.xml entity.other.attribute-name",
             "foreground": "var(name2)"
         },
 
