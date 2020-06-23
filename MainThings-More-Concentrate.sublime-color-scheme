@@ -1359,5 +1359,54 @@
             "foreground": "var(name2)"
         },
 
+
+
+        // CSS
+        // CSS Id
+        {
+            "name": "CSS Id",
+            "scope": "source.css meta.selector.css entity.other.attribute-name.id.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Class
+        {
+            "name": "CSS Class",
+            "scope": "source.css meta.selector.css entity.other.attribute-name.class.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Selector
+        {
+            "name": "CSS Selector",
+            "scope": "source.css meta.selector.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Property Name
+        {
+            "name": "CSS Property Name",
+            "scope": "source.css meta.property-list.css meta.property-name.css support.type.property-name.css",
+            "foreground": "var(name2)"
+        },
+        {
+            "name": "CSS Property Name 2",
+            "scope": "source.css meta.property-list.css meta.property-name.css",
+            "foreground": "var(name2)"
+        },
+
+        // CSS Property Value
+        {
+            "name": "CSS Property Value",
+            "scope": "source.css meta.property-list.css meta.property-value.css support.constant.property-value.css",
+            "foreground": "var(default)"
+        },
+
+        // CSS Property Numeric Unit
+        {
+            "name": "CSS Property Numeric Unit",
+            "scope": "source.css meta.property-list.css meta.property-value.css constant.numeric.css keyword.other.unit.css",
+            "foreground": "var(type)"
+        },
     ]
 }
