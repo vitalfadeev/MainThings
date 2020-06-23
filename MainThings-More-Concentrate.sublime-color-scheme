@@ -1360,7 +1360,6 @@
         },
 
 
-
         // CSS
         // CSS Id
         {
@@ -1380,6 +1379,41 @@
         {
             "name": "CSS Selector",
             "scope": "source.css meta.selector.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Selector P
+        {
+            "name": "CSS Selector P",
+            "scope": "source.css meta.selector.css punctuation",
+            "foreground": "var(default)"
+        },
+
+        // CSS Tag
+        {
+            "name": "CSS Tag",
+            "scope": "source.css meta.selector.css entity.name.tag.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Entity Keyframe
+        {
+            "name": "CSS Entity Keyframe",
+            "scope": "source.css meta.at-rule.keyframe.css entity.other.animation-name.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Id
+        {
+            "name": "CSS Id",
+            "scope": "source.css meta.selector.css entity.other.attribute-name.id.css",
+            "foreground": "var(name)"
+        },
+
+        // CSS Media
+        {
+            "name": "CSS Media",
+            "scope": "source.css meta.at-rule.media.css support.constant.media.css",
             "foreground": "var(name)"
         },
 
@@ -1408,5 +1442,59 @@
             "scope": "source.css meta.property-list.css meta.property-value.css constant.numeric.css keyword.other.unit.css",
             "foreground": "var(type)"
         },
+        {
+            "name": "CSS Property Numeric Unit 2",
+            "scope": "source.css meta.at-rule.media.css constant.numeric.css keyword.other.unit.css",
+            "foreground": "var(type)"
+        },
+        {
+            "name": "CSS Property Numeric Unit 3",
+            "scope": "source.css constant.numeric.css keyword.other.unit.css",
+            "foreground": "var(type)"
+        },
+
+        // CSS Important
+        {
+            "name": "CSS Important",
+            "scope": "source.css meta.property-list.css meta.property-value.css keyword.other.important.css",
+            "foreground": "var(mainword)"
+        },
+
+        // CSS Keyword
+        {
+            "name": "CSS Keyword",
+            "scope": "source.css meta.at-rule.media.css keyword.operator.logic.media.css",
+            "foreground": "var(keyword)"
+        },
+
+        // CSS Keyword Pseudo
+        {
+            "name": "CSS Keyword Pseudo",
+            "scope": "source.css meta.selector.css entity.other.pseudo-element.css",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "CSS Keyword Pseudo 2",
+            "scope": "source.css meta.selector.css entity.other.pseudo-class.css",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "CSS Keyword Pseudo Def",
+            "scope": "source.css meta.selector.css entity.other.pseudo-element.css punctuation.definition.entity.css",
+            "foreground": "var(default)"
+        },
+        {
+            "name": "CSS Keyword Pseudo Def 2",
+            "scope": "source.css meta.selector.css entity.other.pseudo-class.css punctuation.definition.entity.css",
+            "foreground": "var(default)"
+        },
+
+        // CSS Color Prefix
+        {
+            "name": "CSS Color Prefix",
+            "scope": "source.css meta.property-list.css meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css",
+            "foreground": "var(b3)"
+        },
+
     ]
 }
