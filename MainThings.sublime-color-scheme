@@ -629,7 +629,6 @@
             "foreground": "var(error)"
         },
 
-
         // JSON
         // JSON Key
         {
@@ -1139,6 +1138,18 @@
             "name": "Python Constant 2",
             "scope": "source.python variable.other.constant.python",
             "foreground": "var(name2)"
+        },
+
+        // Python await / async
+        {
+            "name": "D await",
+            "scope": "source.python keyword.other.await.python",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "D async",
+            "scope": "source.python keyword.declaration.async.python",
+            "foreground": "var(keyword)"
         },
 
 
