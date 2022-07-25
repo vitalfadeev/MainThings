@@ -764,6 +764,11 @@
             "foreground": "var(type)",
             "font_style": "italic"
         },
+        {
+            "name": "MD Raw Code Block markups",
+            "scope": "text.html.markdown meta.code-fence.definition",
+            "foreground": "var(type)",
+        },
 
         // MD List
         {
