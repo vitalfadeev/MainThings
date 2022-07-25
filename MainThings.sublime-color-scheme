@@ -16,6 +16,7 @@
         "b3"       : "#4F4F4F",
         "b2"       : "#383838",
         "b1"       : "#282828",
+        "b0"       : "#181818",
         "back"     : "black",
         "error"    : "red",
     },
@@ -749,7 +750,8 @@
         {
             "name": "MD Raw Code",
             "scope": "text.html.markdown markup.raw.code-fence",
-            "foreground": "var(name2)"
+            "foreground": "var(default)",
+            "background": "var(b0)"
         },
         {
             "name": "MD Raw Code Block",
