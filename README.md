@@ -38,7 +38,7 @@ Importance priority:
 
 #### Via Package Control
 
-[MainThings](https://packagecontrol.io/packages/MainThings) from Package Control.
+[MainThings](https://packagecontrol.io/packages/MainThings%20Color%20Scheme) from Package Control.
 
 #### Via git
 
